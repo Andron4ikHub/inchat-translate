@@ -7,7 +7,7 @@
     "e2e": "ng e2e",
     "build": "ng build --prod",
     "serve": "firebase serve",
-    "test": "nyc mocha functions_tests/",
+    "test": "nyc mocha functions_tests/ && nyc mocha src/app/tests/",
     "lint": "bash linter.sh"
   },
   "private": true,
